@@ -38,7 +38,7 @@ display: block;
  border: 0;
  cursor: pointer;
  will-change: box-shadow,transform;
- background: radial-gradient( 100% 100% at 100% 0%, #89E5FF 0%, #5468FF 100% );
+ background: radial-gradient( 100% 100% at 100% 0%, #FFFFFFFF 0%, #FF9142FF 100% );
  box-shadow: 0px 0.01em 0.01em rgb(45 35 66 / 40%), 0px 0.3em 0.7em -0.01em rgb(45 35 66 / 30%), inset 0px -0.01em 0px rgb(58 65 111 / 50%);
  padding: 0 15px;
  border-radius: 0.3em;
@@ -47,11 +47,11 @@ display: block;
  text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
  transition: box-shadow 0.15s ease, transform 0.15s ease;
 &:hover {
- box-shadow: 0px 0.1em 0.2em rgb(45 35 66 / 40%), 0px 0.4em 0.7em -0.1em rgb(45 35 66 / 30%), inset 0px -0.1em 0px #3c4fe0;
+ box-shadow: 0px 0.1em 0.2em rgb(45 35 66 / 40%), 0px 0.4em 0.7em -0.1em rgb(45 35 66 / 30%), inset 0px -0.1em 0px #FF6B00FF;
  transform: translateY(-0.1em);
 }
 &:active {
- box-shadow: inset 0px 0.1em 0.6em #3c4fe0;
+ box-shadow: inset 0px 0.1em 0.6em #FF9142FF;
  transform: translateY(0em);
 }
 `

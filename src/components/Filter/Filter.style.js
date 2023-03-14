@@ -12,5 +12,5 @@ font-size: 20px;
 padding: 5px;
 width: 300px;
 border-radius: 6px;
-border: 2px solid blue;
+border: 2px solid orange;
 `
